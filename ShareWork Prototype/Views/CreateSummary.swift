@@ -40,7 +40,6 @@ struct CreateSummary: View {
                 }.transition(.opacity)
             } else {
                 
-                
                 Group {
                     Loading_Spinner()
                     Text("Creating your summary")
